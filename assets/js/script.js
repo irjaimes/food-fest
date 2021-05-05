@@ -1,3 +1,6 @@
+// any changes made here will carry over to new bundles whenever we rerun the bundle build
+require("bootstrap");
+
 $(document).ready(function() {
   function createEl(htmlString, attrs, ...children) {
     if (typeof htmlString !== "string") {
